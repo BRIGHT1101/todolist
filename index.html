@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Todolist</title>
+    <script src="https://kit.fontawesome.com/d43da6134e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="sidebar">
+        <a href="#" class="sidebutton"><i class="fas fa-angle-double-right"></i></a>
+        <ul class="sidelist">
+            <button class="calender" onclick="window.location='calender.html';">요약</button>
+            
+    </ul>
+    </div>
+    <div class="main">
+        <i class="far fa-hand-point-down"></i>
+        <form class="input">
+            <input type="date" id="currentDate"/>
+            <input type="text" class="writetodo" placeholder="할일을 입력하세요" />
+        </form>
+        <ul class="todolist">
+        </ul>
+    </div>
+</body>
+</html>
